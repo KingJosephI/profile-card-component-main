@@ -3,43 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
+    <link rel="stylesheet" href="./style.css" />
     <title>Frontend Mentor | Profile card component</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-
-      body {
-        background-image: url('./images/bg-pattern-top.svg'),
-          url('./images/bg-pattern-bottom.svg');
-      }
-    </style>
   </head>
   <body>
     <section>
-      <div>
-        <img src="./images/image-victor.jpg" alt="" />
-      </div>
+      <div class="image-container"></div>
 
-      <div>
-        <strong>Victor Crest</strong> <span>26</span>
+      <img src="./images/image-victor.jpg" alt="" />
+
+      <div class="identity">
+        <strong class="name">Victor Crest</strong> <span>26</span>
         <div>London</div>
       </div>
 
-      <div>
+      <div class="stats">
         <div>
           <h2>80K</h2>
           <span>Followers</span>
